@@ -1,0 +1,127 @@
+Naive Bayes
+
+C = Correctly Classified, I = Incorrectly Classified
+
+{Yes,No} = 94.46%(C)/5.54%(I)
+{First, Second, None} = 89.75%(C)/10.25%(I)
+{First, Second, Third, None} = 83.66%(C)/16.34%(I)
+{First, Second, Third, Fourth, None} = 79.22%(C)/20.78%(I)
+{First, Second, Third, Fourth, Fifth, None} = 74.24%(C)/25.76%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, None} = 71.47%(C)/28.53%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, None} = 66.48%(C)/33.52%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, None} = 61.77%(C)/38.23%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, None} = 56.79%(C)/43.21%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, None} = 51.52%(C)/48.48%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, None} = 46.26%(C)/53.74%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, None} = 40.44%(C)/59.56%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, Thirteenth, None} = 36.29%(C)/63.71%(I)
+
+
+J48
+
+{Yes,No} = 95.01%(C)/4.99%(I)
+{First, Second, None} = 90.03%(C)/9.97%(I)
+{First, Second, Third, None} = 85.04%(C)/14.96%(I)
+{First, Second, Third, Fourth, None} = 80.06%(C)/19.94%(I)
+{First, Second, Third, Fourth, Fifth, None} = 75.07%(C)/24.93%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, None} = 70.08%(C)/29.92%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, None} = 65.10%(C)/34.90%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, None} = 60.11%(C)/39.89%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, None} = 54.57%(C)/45.43%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, None} = 49.58%(C)/50.42%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, None} = 45.15%(C)/54.85%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, None} = 39.34%(C)/60.66%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, Thirteenth, None} = 34.90%(C)/65.10%(I)
+
+Random Tree
+
+{Yes,No} = 92.24%(C)/7.76%(I)
+{First, Second, None} = 84.21%(C)/15.79%(I)
+{First, Second, Third, None} = 77.29%(C)/22.71%(I)
+{First, Second, Third, Fourth, None} = 70.36%(C)/29.64%(I)
+{First, Second, Third, Fourth, Fifth, None} = 65.65%(C)/34.35%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, None} = 58.73%(C)/41.27%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, None} = 54.02%(C)/45.98%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, None} = 47.65%(C)/52.35%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, None} = 43.77%(C)/56.23%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, None} = 39.61%(C)/60.39%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, None} = 35.18%(C)/64.82%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, None} = 29.64%(C)/70.36%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, Thirteenth, None} = 24.38%(C)/75.62%(I)
+
+Multilayer Perceptron
+
+{Yes,No} = 93.35%(C)/6.65%(I)
+{First, Second, None} = 86.43%(C)/13.57%(I)
+{First, Second, Third, None} = 80.33%(C)/19.67%(I)
+{First, Second, Third, Fourth, None} = 74.79%(C)/25.21%(I)
+{First, Second, Third, Fourth, Fifth, None} = 68.98%(C)/31.02%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, None} = 59%(C)/41%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, None} = 57.89%(C)/42.11%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, None} = 52.08%(C)/47.92%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, None} = 48.75%(C)/51.25%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, None} = 44.88%(C)/55.12%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, None} = 37.95%(C)/62.05%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, None} = 37.95%(C)/62.05%(I)
+{First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth, Thirteenth, None} = 27.98%(C)/72.02%(I)
+
+
+
+SUBSET DATA
+			J48 (60.94%(C)/39.06%(I))
+				GFAvg = 63.28%(C)/36.72%(I)
+				GAAvg = 60.94%(C)/39.06%(I)
+				Penalties = 63.28%(C)/36.72%(I)
+				ShotsOn = 63.28%(C)/36.72%(I)
+				ShotsWide = 63.28%(C)/36.72%(I)
+				FreeKicks = 63.28%(C)/36.72%(I)
+				Offside = 63.28%(C)/36.72%(I)
+				Corners = 63.28%(C)/36.72%(I)
+			
+			Naive Bayes (59.38%(C)/40.62%(I))
+				GFAvg = 63.28%(C)/36.72%(I)
+				GAAvg = 60.94%(C)/39.06%(I)
+				Penalties = 63.28%(C)/36.72%(I)
+				ShotsOn = 62.5%(C)/37.5%(I)
+				ShotsWide = 61.72%(C)/38.28%(I)
+				FreeKicks = 60.94%(C)/39.06%(I)
+				Offside = 62.5%(C)/37.5%(I)
+				Corners = 60.16%(C)/39.84%(I)
+			
+			REPTree (63.28%(C)/36.72%(I))
+				GFAvg = 63.28%(C)/36.72%(I)
+				GAAvg = 63.28%(C)/36.72%(I)
+				Penalties = 63.28%(C)/36.72%(I)
+				ShotsOn = 63.28%(C)/36.72%(I)
+				ShotsWide = 63.28%(C)/36.72%(I)
+				FreeKicks = 63.28%(C)/36.72%(I)
+				Offside = 63.28%(C)/36.72%(I)
+				Corners = 63.28%(C)/36.72%(I)
+
+			Multilayer Perceptron (51.56%(C)/48.44%(I))
+				GFAvg = 51.56%(C)/48.44%(I)
+				GAAvg = 53.13%(C)/46.87%(I)
+				Penalties = 44.53%(C)/55.47%(I)
+				ShotsOn = 50%(C)/50%(I)
+				ShotsWide = 47.66%(C)/52.34%(I)
+				FreeKicks = 46.87%(C)/53.13%(I)
+				Offside = 47.66%(C)/52.34%(I)
+				Corners = 47.66%(C)/52.34%(I)
+
+FULLSET DATA
+			J48 (42.82%(C)/57.18%(I))
+				Corners = 43.29%(C)/56.71%(I)
+				GAAvg = 43.29%(C)/56.71%(I)
+			
+			Naive Bayes (48.94%(C)/51.06%(I))
+				Corners = 48.71%(C)/51.29%(I)
+				GAAvg = 49.41%(C)/50.59%(I)
+			
+			REPTree (46.12%(C)/53.88%(I))
+				Corners = 45.18%(C)/54.82%(I)
+				GAAvg = 46.35%(C)/53.65%(I)
+
+			Multilayer Perceptron (40.47%(C)/59.53%(I))
+				Corners = 41.88%(C)/58.12%(I)
+				GAAvg = 43.29%(C)/56.71%(I)
+
